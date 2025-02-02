@@ -1,0 +1,22 @@
+.dashboard {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid lightblue;
+    border-radius: 8px;
+    background-color: lightblue;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  }
+  
+  .card:hover {
+    background-color: #ddf0f0;
+    border: 1px solid #ddf0f0;
+  }
+  
