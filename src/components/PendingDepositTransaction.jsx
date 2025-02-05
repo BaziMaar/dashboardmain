@@ -209,10 +209,10 @@ const PendingDepositTable = () => {
         alert("Notification has not been send through firebase due to notification id error")
       }
       try{
-        await axios.post('https://sattajodileak.com/wallet/adminDeposit', {
-          phone,
-          amount: parseInt(amount),  
-        });
+        // await axios.post('https://sattajodileak.com/wallet/adminDeposit', {
+        //   phone,
+        //   amount: parseInt(amount),  
+        // });
         alert(`Payment of ${amount} accepted for phone number ${phone}.`);
       }
       catch(error){
